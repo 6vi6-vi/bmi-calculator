@@ -18,17 +18,17 @@ Express-приложение для расчёта Индекса Массы Т�
 </div>
 
 <div align="center">
-  <img alt="Project Demo" src="./images/interface2.png"/>
+  <img alt="Project Demo" src="/bmi-calculator/images/interface2.png"/>
 </div>
 
 ## Примеры работы с API
 
 <div align="center">
-  <img alt="Project Demo" src="./images/api1.png"/>
+  <img alt="Project Demo" src="/bmi-calculator/images/api1.png"/>
 </div>
 
 <div align="center">
-  <img alt="Project Demo" src="./images/api2.png"/>
+  <img alt="Project Demo" src="/bmi-calculator/images/api2.png"/>
 </div>
 
 
