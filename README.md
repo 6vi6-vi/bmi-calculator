@@ -14,7 +14,7 @@ Express-приложение для расчёта Индекса Массы Т�
 ## Интерфейс
 
 <div align="center">
-  <img alt="Project Demo" src=".bmi-calculator/images/interface1.png"/>
+  <img alt="Project Demo" src="/bmi-calculator/images/interface1.png"/>
 </div>
 
 <div align="center">
