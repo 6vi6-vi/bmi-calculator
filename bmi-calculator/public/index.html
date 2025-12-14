@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ИМТ - API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Калькулятор ИМТ</h1>
+        </header>
+        
+        <main>            
+            <div class="calculator">
+                <h2>Онлайн калькулятор ИМТ</h2>
+                <form id="bmiForm">
+                    <div class="form-group">
+                        <label for="name">Имя (опционально):</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="weight">Вес (кг):</label>
+                        <input type="number" id="weight" placeholder="70" required min="1" max="300">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="height">Рост (см):</label>
+                        <input type="number" id="height" placeholder="175" required min="50" max="250">
+                    </div>
+                    
+                    <button type="submit">Рассчитать ИМТ</button>
+                    <button type="button" id="saveBtn" style="display: none;">Сохранить результат</button>
+                </form>
+                
+                <div id="result" class="result"></div>
+                
+                <div class="bmi-chart">
+                    <h3>Шкала ИМТ</h3>
+                    <ul>
+                        <li><span class="category underweight">Менее 18.5</span> — Недостаточный вес</li>
+                        <li><span class="category normal">18.5-24.9</span> — Нормальный вес</li>
+                        <li><span class="category overweight">25-29.9</span> — Избыточный вес</li>
+                        <li><span class="category obese">30 и более</span> — Ожирение</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="records-section">
+                <h2>Сохраненные записи</h2>
+                <button id="loadRecords">Загрузить все записи</button>
+                <div id="recordsList" class="records-list"></div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
